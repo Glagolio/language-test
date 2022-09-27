@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/language-test/static/css/main.7acaea2f.css",
+    "main.js": "/language-test/static/js/main.f1386e42.js",
+    "index.html": "/language-test/index.html",
+    "main.7acaea2f.css.map": "/language-test/static/css/main.7acaea2f.css.map",
+    "main.f1386e42.js.map": "/language-test/static/js/main.f1386e42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.f1386e42.js"
+  ]
+}
