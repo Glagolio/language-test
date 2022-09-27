@@ -7,7 +7,7 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
 export const App = () => {
   return (
-    <BrowserRouter basename="/language-test/">
+    <BrowserRouter basename="/language-test">
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<HomePage />} />

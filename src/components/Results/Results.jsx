@@ -8,7 +8,7 @@ const Results = () => {
 
   useEffect(() => {
     const generalResult = Math.floor(
-      results.reduce((acc, result) => (acc + result.result) / results.length, 0)
+      results.reduce((acc, result) => acc + result.result, 0) / results.length
     );
     serGeneralResult(generalResult);
   }, [results]);
