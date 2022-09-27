@@ -58,7 +58,14 @@ const AddWordsForm = () => {
       <form onSubmit={handleSubmit}>
         <label>
           <p>Додай слово англійською</p>
-          <input type="text" name="word" onChange={handleChange} value={word} />
+          <input
+            type="text"
+            name="word"
+            onChange={handleChange}
+            value={word}
+            pattern="^[a-zA-Z\s]+$"
+            title="Введіть слово англійською"
+          />
         </label>
         <label>
           <p>Додай переклад</p>
@@ -67,6 +74,8 @@ const AddWordsForm = () => {
             name="translatedWord"
             onChange={handleChange}
             value={transletedWord}
+            title="Введіть слово українською"
+            pattern="[А-Яа-яґҐЁёІіЇїЄє'’ʼ\s-]+$"
           />
         </label>
         <button type="submit">Додати слово</button>
